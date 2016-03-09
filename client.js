@@ -6,7 +6,7 @@ const io = require('socket.io-client');
 
 
 
-const socket = io.connect('http://10.0.0.26',{
+const socket = io.connect('http://172.20.10.7',{
     port: 80
 });
 
